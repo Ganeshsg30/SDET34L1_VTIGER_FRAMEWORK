@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-24T10:45:26Z" name="Suite" finished-at="2022-05-24T10:45:35Z" duration-ms="9492">
+    <groups>
+      <group name="regression">
+        <method signature="CreateProductsTest.createProductsTest()[pri:0, instance:com.vtiger.productsTest.CreateProductsTest@715d6168]" name="createProductsTest" class="com.vtiger.productsTest.CreateProductsTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2022-05-24T10:45:26Z" name="chrome" finished-at="2022-05-24T10:45:35Z" duration-ms="9492">
+      <class name="com.vtiger.productsTest.CreateProductsTest">
+        <test-method is-config="true" signature="beforesuiteTest()[pri:0, instance:com.vtiger.productsTest.CreateProductsTest@715d6168]" started-at="2022-05-24T10:45:25Z" name="beforesuiteTest" finished-at="2022-05-24T10:45:26Z" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuiteTest -->
+        <test-method is-config="true" signature="beforeclassTest(java.lang.String)[pri:0, instance:com.vtiger.productsTest.CreateProductsTest@715d6168]" started-at="2022-05-24T10:45:26Z" name="beforeclassTest" finished-at="2022-05-24T10:45:28Z" duration-ms="2133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.productsTest.CreateProductsTest@715d6168]" started-at="2022-05-24T10:45:28Z" name="beforeMethodTest" finished-at="2022-05-24T10:45:30Z" duration-ms="1263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="createProductsTest()[pri:0, instance:com.vtiger.productsTest.CreateProductsTest@715d6168]" started-at="2022-05-24T10:45:30Z" name="createProductsTest" finished-at="2022-05-24T10:45:35Z" duration-ms="4809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductsTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.productsTest.CreateProductsTest@715d6168]" started-at="2022-05-24T10:45:35Z" name="afterMethodTest" finished-at="2022-05-24T10:45:35Z" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.vtiger.productsTest.CreateProductsTest@715d6168]" started-at="2022-05-24T10:45:35Z" name="afterClassTest" finished-at="2022-05-24T10:45:35Z" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+        <test-method is-config="true" signature="afterSuiteTest()[pri:0, instance:com.vtiger.productsTest.CreateProductsTest@715d6168]" started-at="2022-05-24T10:45:36Z" name="afterSuiteTest" finished-at="2022-05-24T10:45:36Z" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteTest -->
+      </class> <!-- com.vtiger.productsTest.CreateProductsTest -->
+    </test> <!-- chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
