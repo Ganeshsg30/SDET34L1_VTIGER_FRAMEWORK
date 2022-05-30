@@ -22,7 +22,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 /**
  * This class is used to get the common data
  * @author Ganesh
- *
  */
 public class BaseClass
 {
