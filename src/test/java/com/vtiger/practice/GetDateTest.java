@@ -13,6 +13,6 @@ public class GetDateTest
 		Date date = new Date();
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy_MM_dd_HH_mm_sss");
 		String date1=sdf.format(date);
-		javaUtil.printStatement(date1);
+		javaUtil.printStatement("Date and Time :"+date1);
 	}
 }

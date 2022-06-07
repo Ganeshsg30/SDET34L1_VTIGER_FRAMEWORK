@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.sdet34l1.genericlibrary.ListenerImplementation"/>
-  </listeners>
   <test thread-count="5" parallel="tests" name="chrome(failed)">
     <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="regression"/>
+        <include name="baseclass"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.vtiger.productsTest.CreateProductsTest">
+      <class name="com.vtiger.practice.CreateOrganizationTest">
         <methods>
           <include name="afterSuiteTest"/>
           <include name="beforesuiteTest"/>
           <include name="afterClassTest"/>
           <include name="beforeMethodTest"/>
+          <include name="createOrganizationTest"/>
           <include name="beforeclassTest"/>
           <include name="afterMethodTest"/>
-          <include name="createProductsTest"/>
         </methods>
-      </class> <!-- com.vtiger.productsTest.CreateProductsTest -->
+      </class> <!-- com.vtiger.practice.CreateOrganizationTest -->
     </classes>
   </test> <!-- chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

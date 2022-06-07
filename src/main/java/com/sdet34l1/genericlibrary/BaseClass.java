@@ -56,20 +56,20 @@ public class BaseClass
 	 */
 	@Parameters("browser")
 	@BeforeClass(groups = "baseclass")
-	public void beforeclassTest()
+	public void beforeclassTest(String browser)
 	{
 		javautil = new JavaUtility();
-		//String url = PropertiesFile.getDataFromPropertyFile("url");
-		//username = PropertiesFile.getDataFromPropertyFile("username");
-		//password = PropertiesFile.getDataFromPropertyFile("password");
+		String url = PropertiesFile.getDataFromPropertyFile("url");
+		username = PropertiesFile.getDataFromPropertyFile("username");
+		password = PropertiesFile.getDataFromPropertyFile("password");
 		String timeouts = PropertiesFile.getDataFromPropertyFile("timeouts");
-		String browser = PropertiesFile.getDataFromPropertyFile("browser");
+		//String browser = PropertiesFile.getDataFromPropertyFile("browser");
 		longtimeout = Long.parseLong(timeouts);
 		randomnumber = javautil.getRandomNumber(10000);
 		
-		String url = System.getProperty("URL");
-		username = System.getProperty("USERNAME");
-		password = System.getProperty("PASSWORD");
+//		String url = System.getProperty("URL");
+//		username = System.getProperty("USERNAME");
+//		password = System.getProperty("PASSWORD");
 		
 		switch (browser)
 		{
